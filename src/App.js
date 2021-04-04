@@ -53,7 +53,7 @@ class App extends React.Component {
     return (
       <div className={'app'}>
         <nav className='nav-links'>
-          <Link to="/about">About</Link>
+          <Link to="/addissue">About</Link>
           <Link to="/issues">Issues</Link>
         </nav>
         <Switch>
