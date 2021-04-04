@@ -1,13 +1,51 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.add-issues-form label {
+    display: inline-block;
+    min-width: 100px;
+}
+
+.app {
+    padding: 30px;
+}
+
+.form-field {
+    margin: 10px 0;
+}
+
+.nav-links {
+    padding: 15px 0;
+}
+
+.nav-links > * {
+    margin: 10px 15px;
+}
+
+table.issues {
+    padding: 10px;
+    margin: 30px;
+}
+
+table.issues tr {
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.error-message {
+    margin-left: 30px;
+    color: red;
 }
