@@ -58,7 +58,7 @@ class App extends React.Component {
         </nav>
         <Switch>
           <Route path="/about">
-            <AddIssueForm onSubmitIssue={this.onSubmitIssue}/>
+            <h1>About</h1>
           </Route>
           <Route path="/issues">
             <AllIssuesPage issues={this.state.issues} onIssueClick={this.loadIssue}/>
